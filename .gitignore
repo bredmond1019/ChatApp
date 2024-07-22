@@ -1,0 +1,19 @@
+**/.env
+**/diesel.toml
+**/.DS_Store
+**/target/
+backend/user_service/target/
+
+# Flutter/Dart specific
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/ios/Flutter/.last_build_id
+**/.generated
+**/android/.gradle
+**/android/app/debug
+**/android/app/profile
+**/android/app/release
+
+client/macos/Flutter/GeneratedPluginRegistrant.swift
+client/windows/flutter/generated_plugin_registrant.cc
+client/windows/flutter/generated_plugins.cmake

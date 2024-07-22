@@ -1,0 +1,14 @@
+#import { User } from './types/user_type.graphql'
+#import { Availability } from './types/availability_type.graphql'
+
+type Query {
+  users: [User!]!
+  user(id: ID!): User
+
+  availabilities(
+    gym_id: ID!
+    start_time: String!
+    end_time: String!
+    user_id: ID
+  ): [Availability]
+}

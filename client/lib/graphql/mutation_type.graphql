@@ -1,0 +1,5 @@
+#import { User, NewUserInput } from './types/user_type.graphql'
+
+type Mutation {
+  createUser(params: NewUserInput!): User!
+}

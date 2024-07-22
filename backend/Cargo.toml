@@ -1,0 +1,13 @@
+# [PROJECT_DIR]/Cargo.toml
+[workspace]
+members = [
+    "chat_service",
+    "user_service",
+    "shared"
+    , "schedule_service"]
+resolver="2"
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+
